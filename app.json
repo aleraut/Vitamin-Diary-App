@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MedDiary",
-    "slug": "MedDiary",
+    "slug": "vitamindiary",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aleraut.vitamindiary"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "144fa56f-f700-45b5-8d3c-886a3ca77da7"
+      }
+    },
+    "owner": "aleraut"
   }
 }
